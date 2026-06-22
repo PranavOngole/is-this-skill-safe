@@ -43,6 +43,6 @@ It is not airtight, by design. It cannot read compiled binaries (a clean source 
 
 Free for **noncommercial use** under the PolyForm Noncommercial License 1.0.0 (see [LICENSE](LICENSE)). That covers personal projects, study, research, hobby use, and noncommercial organizations such as schools, charities, and government bodies.
 
-**Commercial use**, meaning any use by or for a for-profit organization for commercial advantage, requires a separate commercial license. Contact `[YOUR EMAIL]` to arrange one.
+**Commercial use**, meaning any use by or for a for-profit organization for commercial advantage, requires a separate commercial license. Contact `pranavongole@gmail.com` to arrange one.
 
 This is source-available, not OSI open source. The commercial restriction is intentional.
