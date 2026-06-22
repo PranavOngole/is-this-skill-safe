@@ -2,6 +2,12 @@
 
 A read-only due-diligence auditor for GitHub repos, built as a Claude Code skill. You run `/is-this-skill-safe <github-url>` and get a structured report on what a repo does, how it handles your data and credentials, what its dependencies look like, and whether its own text is trying to manipulate the reviewer. It surfaces signals and hands you the decision.
 
+## Why this exists
+
+Some skills quietly send your work somewhere else. I installed a few that silently uploaded whatever I was doing with them to a remote server, with no notice and no way to opt out. If you are sketching a personal project or an early startup idea, that is your private thinking leaving your machine before you have shipped a thing.
+
+This is the check I wanted before trusting one of them. Point it at a skill, package, or extension and it reads what the code actually does with your data, your credentials, and the network, so you can catch the shady ones before they ever run.
+
 > **This is a first-pass triage, not a safety guarantee.** It reads source, not compiled binaries, and it does not fully execute or prove the behavior of a dependency tree. It never returns a clean bill of health. Every report states exactly what it did and did not check.
 
 ## What it checks
